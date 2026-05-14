@@ -1,0 +1,371 @@
+{
+  "siteInfo": {
+    "siteName": "Tuktokra",
+    "logo": "👟",
+    "tagline": "Adventure Awaits",
+    "description": "Conquer mountains, explore nature, build memories with our community"
+  },
+
+  "navigation": [
+    { "label": "Home", "url": "index.html" },
+    { "label": "Hikes", "url": "hikes.html" },
+    { "label": "Guides", "url": "guides.html" },
+    { "label": "Gallery", "url": "gallery.html" },
+    { "label": "About", "url": "about.html" },
+    { "label": "Contact", "url": "contact.html" }
+  ],
+
+  "stats": {
+    "mountainsClimbed": 2,
+    "happyHikers": 3,
+    "expertGuides": 1,
+    "milesTraveled": 1000
+  },
+
+  "featuredHikes": [
+    {
+      "id": 1,
+      "title": "Sanchez peak",
+      "difficulty": "moderate",
+      "duration": "2 hours",
+      "elevation": "243.84m",
+      "distance": "N/A",
+      "description": "Sanchez Peak is the highest point in General Santos City, standing approximately 800 feet above sea level in Barangay Olympog, offering 360-degree views of Sarangani Bay, Mt. Matutum, and Mt. Parker. It is a popular, beginner-friendly hiking and camping destination featuring breezy, panoramic landscapes and scenic, rolling terrain",
+      "image": "assets/images/sanchez-peak.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Buko-Buko Peak",
+      "difficulty": "easy",
+      "duration": "2 hours",
+      "elevation": "680 meters",
+      "distance": "N/A",
+      "description": "Buko-Buko Peak is located in Barangay Olympog, General Santos City, South Cotabato, Philippines. Situated in the scenic highland area known as Balakayo, this beginner-friendly, ridge-like hiking spot is often called the 'New Zealand' of the South and offers panoramic views of Sarangani Bay.",
+      "image": "assets/images/buko-buko.jpg"
+    }
+  ],
+
+  "expeditions": [
+    {
+      "id": 1,
+      "title": "Sanchez Peak",
+      "difficulty": "moderate",
+      "date": "Open schedule",
+      "dateMonth": "Any",
+      "dateDay": "Day",
+      "location": "Barangay Olympog, General Santos City",
+      "description": "Beginner-friendly highland hike with wide views of Sarangani Bay, Mt. Matutum, and nearby rolling hills. Good for a short morning or afternoon climb.",
+      "duration": "Around 2 hours",
+      "distance": "N/A",
+      "elevation": "243.84m",
+      "groupSize": "Solo or small group",
+      "estimatedBudget": 400,
+      "budgetItems": [
+        "Transportation fare",
+        "Water or trail drinks",
+        "Snacks if you want to bring some",
+        "Optional entrance or local fees if collected"
+      ],
+      "note": "Food and gear are personal expenses. Bring your own water and snacks."
+    },
+    {
+      "id": 2,
+      "title": "Buko-Buko Peak",
+      "difficulty": "easy",
+      "date": "Open schedule",
+      "dateMonth": "Any",
+      "dateDay": "Day",
+      "location": "Balakayo, Barangay Olympog, General Santos City",
+      "description": "A relaxed ridge-style hike known for open grassland views and beginner-friendly trails. Best visited when the weather is clear.",
+      "duration": "Around 2 hours",
+      "distance": "N/A",
+      "elevation": "680 meters",
+      "groupSize": "Solo or small group",
+      "estimatedBudget": 100,
+      "budgetItems": [
+        "Transportation fare",
+        "Water or trail drinks",
+        "Personal snacks",
+        "Optional entrance or local fees if collected"
+      ],
+      "note": "This is a cost estimate only, not a package price."
+    }
+  ],
+
+  "hikeRequirements": [
+    {
+      "title": "Essential Gear",
+      "items": [
+        "Proper hiking boots",
+        "Weather-appropriate clothing",
+        "Backpack (20-30L)",
+        "Water bottle/hydration system",
+        "Sun protection & hat",
+        "Basic first aid kit"
+      ]
+    },
+    {
+      "title": "Recommended Items",
+      "items": [
+        "Camera/smartphone",
+        "Snacks & energy bars",
+        "Trail map & compass",
+        "Headlamp/flashlight",
+        "Insect repellent",
+        "Emergency whistle"
+      ]
+    },
+    {
+      "title": "Important Notes",
+      "items": [
+        "Physical fitness required",
+        "Register 48 hours before",
+        "Arrive 30 min early",
+        "Check weather forecast",
+        "Inform us of health issues",
+        "No solo hiking allowed"
+      ]
+    }
+  ],
+
+  "guides": [
+    {
+      "id": 1,
+      "title": "Sanchez Peak",
+      "difficulty": "moderate",
+      "location": "Barangay Olympog, General Santos City",
+      "elevation": "243.84m",
+      "duration": "Around 2 hours",
+      "distance": "N/A",
+      "image": "assets/images/sanchez-peak.jpg",
+      "description": "A beginner-friendly highland trail with open views of Sarangani Bay, Mt. Matutum, and nearby rolling hills. Good for a short morning or afternoon hike.",
+      "itinerary": [
+        "Arrive at the starting point and check the weather",
+        "Begin the hike at a steady pace",
+        "Take short rest and photo breaks at open viewpoints",
+        "Reach the peak area and enjoy the scenery",
+        "Descend before it gets too hot or too dark"
+      ],
+      "essentials": [
+        "Comfortable hiking shoes",
+        "Water or trail drinks",
+        "Light snacks",
+        "Sun protection and cap",
+        "Small towel or extra shirt"
+      ],
+      "trailInfo": {
+        "Trail Type": "Open highland trail",
+        "Weather": "Best during clear mornings or late afternoons",
+        "Water Sources": "Bring your own water",
+        "Signal Reception": "May vary depending on area",
+        "Best For": "Views, photos, beginner practice"
+      },
+      "safety": [
+        "Avoid hiking during heavy rain",
+        "Bring enough water because the trail can be exposed",
+        "Wear shoes with good grip",
+        "Respect local rules and private areas",
+        "Do not leave trash on the trail"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Buko-Buko Peak",
+      "difficulty": "easy",
+      "location": "Balakayo, Barangay Olympog, General Santos City",
+      "elevation": "680 meters",
+      "duration": "Around 2 hours",
+      "distance": "N/A",
+      "image": "assets/images/buko-buko.jpg",
+      "description": "A relaxed ridge-style hike with open grassland views. It is beginner-friendly and nice for hikers who want a simple scenic trail.",
+      "itinerary": [
+        "Arrive early and prepare water or snacks",
+        "Start the walk through the open trail",
+        "Take breaks along the ridge viewpoints",
+        "Spend time at the peak area for photos",
+        "Head back while visibility is still good"
+      ],
+      "essentials": [
+        "Comfortable walking shoes",
+        "Water",
+        "Personal snacks",
+        "Hat or umbrella for sun protection",
+        "Phone or camera for photos"
+      ],
+      "trailInfo": {
+        "Trail Type": "Ridge and grassland path",
+        "Weather": "Best when the sky is clear",
+        "Water Sources": "Bring your own water",
+        "Signal Reception": "May vary depending on area",
+        "Best For": "Beginners, photos, casual hiking"
+      },
+      "safety": [
+        "Check the weather before going",
+        "Be careful on open slopes when it is windy",
+        "Bring sun protection because shade can be limited",
+        "Stay on visible paths",
+        "Pack out your trash"
+      ]
+    }
+  ],
+
+  "preparationTips": [
+    {
+      "title": "Physical Prep",
+      "description": "Do light walking or cardio before the hike, especially if the route has steady uphill sections."
+    },
+    {
+      "title": "Gear Check",
+      "description": "Use comfortable shoes, test your bag, and make sure your water bottle, phone, and essentials are ready."
+    },
+    {
+      "title": "Weather Check",
+      "description": "Check the forecast before leaving. Clear mornings are usually better for views and safer trail conditions."
+    },
+    {
+      "title": "Food and Water",
+      "description": "Bring your own water and snacks. Food is not provided, so pack based on your own needs."
+    }
+  ],
+
+  "gallery": [
+    {
+      "id": 1,
+      "title": "Sanchez peak",
+      "category": "mountains",
+      "image": "assets/images/sanchez-peak.jpg",
+      "description": "Sanchez Peak is the highest point in General Santos City, standing approximately 800 feet above sea level in Barangay Olympog, offering 360-degree views of Sarangani Bay, Mt. Matutum, and Mt. Parker. It is a popular, beginner-friendly hiking and camping destination featuring breezy, panoramic landscapes and scenic, rolling terrain"
+    },
+    {
+      "id": 2,
+      "title": "Buko-Buko Peak",
+      "category": "mountains",
+      "image": "assets/images/buko-buko.jpg",
+      "description": "Buko-Buko Peak is located in Barangay Olympog, General Santos City, South Cotabato, Philippines. Situated in the scenic highland area known as Balakayo, this beginner-friendly, ridge-like hiking spot is often called the 'New Zealand' of the South and offers panoramic views of Sarangani Bay."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Prince Carlo A. Monacillo",
+      "text": "Unforgettable experience. Ang mga bukid kay grabe ka nindot, with strong peaks ug wide views nga dili jud ka magmahay. Nature naa sa tanan dapit, very fresh ug relaxing kaayo ang hangin. Every view kay amazing ug makapahawa sa stress. Simple ra pero powerful kaayo ang feeling, murag connected jud ka sa lugar while nagtan-aw sa palibot.Unforgettable experience. Ang mga bukid kay grabe ka nindot, with strong peaks ug wide views nga dili jud ka magmahay. Nature naa sa tanan dapit, very fresh ug relaxing kaayo ang hangin. Every view kay amazing ug makapahawa sa stress. Simple ra pero powerful kaayo ang feeling, murag connected jud ka sa lugar while nagtan-aw sa palibot.",
+      "rating": 5,
+      "image": "assets/images/me-pic.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Billy",
+      "text": "Grabe ka nindot nga experience. Ang mga bukid kay amazing kaayo, taas nga peaks ug super wide nga views nga makawala gyud sa kapoy. Ang nature kay buhi kaayo tan-awon, fresh ang hangin ug very calming ang atmosphere. Nindot kaayo magtan-aw sa palibot kay every direction naa kay makita nga inspiring nga scenery. Simple pero solid kaayo ang experience, murag gusto pa nimo mobalik balik.",
+      "rating": 5,
+      "image": "assets/images/billy.jpg"
+    }
+  ],
+
+  "upcomingEvents": [
+    {
+      "id": 0,
+      "title": "",
+      "date": "",
+      "month": "",
+      "day": "",
+      "location": "",
+      "description": ""
+    }
+   
+  ],
+
+  "contactInfo": {
+    "email": "N/A",
+    "phone": "N/A",
+    "address": "N/A",
+    "hours": "N/A",
+    "socialLinks": [
+      { "platform": "Facebook", "url": "https://www.facebook.com/profile.php?id=61589735818797", "icon": "f" },
+      { "platform": "Instagram", "url": "https://instagram.com/tuktokra", "icon": "📷" },
+      { "platform": "YouTube", "url": "https://youtube.com/tuktokra", "icon": "▶" },
+      { "platform": "Twitter", "url": "https://twitter.com/tuktokra", "icon": "𝕏" }
+    ]
+  },
+
+  "formLabels": {
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "subject": "Subject",
+    "experience": "Your Experience Level",
+    "message": "Message",
+    "subscribe": "Subscribe to our newsletter"
+  },
+
+  "aboutPage": {
+    "story": "Founded in 2015, Tuktokra began as a small group of mountain enthusiasts sharing their love for adventure. What started as weekend hikes has grown into a vibrant community of over 1,500 passionate hikers and mountaineers. Our mission is to inspire and connect people with nature while promoting sustainable tourism and environmental conservation.",
+    "mission": "To inspire and empower adventurers to explore the world's most beautiful mountains while building a community dedicated to environmental stewardship and sustainable tourism.",
+    "vision": "A world where every person experiences the transformative power of mountain adventures and becomes a guardian of natural landscapes.",
+    "values": "Integrity, Community, Adventure, Sustainability, Excellence",
+    "teamMembers": [
+      {
+        "name": "Spongebob",
+        "role": "Founder & Lead Guide",
+        "bio": "20+ years of mountaineering experience",
+        "image": "assets/images/spongebob.jpg"
+      },
+      {
+        "name": "Patrick",
+        "role": "Chief Operations Officer",
+        "bio": "Expert in sustainable tourism practices",
+        "image": "assets/images/patrick.jpeg"
+      },
+      {
+        "name": "Hanamichi Sakuragi",
+        "role": "Head of Safety",
+        "bio": "Certified rescue and safety coordinator",
+        "image": "assets/images/Hanamichi.png"
+      }
+    ]
+  },
+
+  "faq": [
+    {
+      "question": "What experience level do I need?",
+      "answer": "Most listed hikes are beginner-friendly, but always check the difficulty, weather, and your own fitness before going."
+    },
+    {
+      "question": "Is the estimated spend a package price?",
+      "answer": "No. It is only an estimate of what you might spend for transportation, water, snacks, and possible local fees."
+    },
+    {
+      "question": "What should I bring?",
+      "answer": "Bring your own water, snacks, comfortable footwear, weather-appropriate clothing, and sun protection."
+    },
+    {
+      "question": "How fit do I need to be?",
+      "answer": "For easy hikes, basic fitness is usually enough. For longer or steeper routes, prepare with walking or light cardio beforehand."
+    },
+    {
+      "question": "Do I need to bring my own food?",
+      "answer": "Yes. Bring your own snacks or meals if you think you will need them. Food is not provided."
+    },
+    {
+      "question": "Can the cost change?",
+      "answer": "Yes. Fare, entrance fees, parking, and other local costs can change, so treat the amount as a rough guide."
+    }
+  ],
+
+  "footer": {
+    "description": "Join few of adventurers exploring the world's most beautiful mountains.",
+    "quickLinks": [
+      { "label": "About Us", "url": "about.html" },
+      { "label": "Our Hikes", "url": "hikes.html" },
+      { "label": "Gallery", "url": "gallery.html" },
+      { "label": "Contact", "url": "contact.html" }
+    ],
+    "companyLinks": [
+      { "label": "Privacy Policy", "url": "#" },
+      { "label": "Terms of Service", "url": "#" },
+      { "label": "Careers", "url": "#" },
+      { "label": "Blog", "url": "#" }
+    ],
+    "copyright": "© 2026 Tuktokra. All rights reserved."
+  }
+}

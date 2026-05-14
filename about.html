@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Tuktokra, our hiking community, values, and love for local trails.">
+    <meta name="keywords" content="about hiking community local trails tuktokra">
+    <title>About - Tuktokra</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">T</span>
+                Tuktokra
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="hikes.html" class="nav-link">Hikes</a></li>
+                <li><a href="guides.html" class="nav-link">Guides</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="header-content">
+            <h1>About Tuktokra</h1>
+            <p>Local hikes, simple guides, and shared mountain memories</p>
+        </div>
+        <div class="header-overlay"></div>
+    </header>
+
+    <!-- Our Story Section -->
+    <section class="about-story">
+        <div class="container">
+            <h2 class="section-title">Our Story</h2>
+            <div class="story-content">
+                <!-- Story content is loaded from data.json by js/main.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission, Vision, Values -->
+    <section class="about-mvv">
+        <div class="container">
+            <h2 class="section-title">Mission, Vision & Values</h2>
+            <div class="mvv-grid">
+                <!-- Mission, vision, and values are loaded from data.json by js/main.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Why We Hike -->
+    <section class="why-we-hike">
+        <div class="container">
+            <h2 class="section-title">Why We Hike</h2>
+            <div class="reasons-flex">
+                <!-- Hiking reasons are loaded from data.json by js/main.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Impact -->
+    <section class="impact-section">
+        <div class="container">
+            <h2 class="section-title">Our Small Impact</h2>
+            <div class="impact-stats">
+                <!-- Impact stats are loaded from data.json by js/main.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Environmental Commitment -->
+    <section class="environment-section">
+        <div class="container">
+            <h2 class="section-title">Trail Care</h2>
+            <div class="environment-content">
+                <!-- Environmental commitment is loaded from data.json by js/main.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet Our Team -->
+    <section class="guides-team">
+        <div class="container">
+            <h2 class="section-title">People Behind Tuktokra</h2>
+            <p class="section-subtitle">A small local hiking community, not a tour company.</p>
+            <div class="team-grid" data-source="json">
+
+                <!-- <div class="team-member">
+                    <img src="assets/images/me-pic.jpg" alt="Prince Carlo A. Monacillo" class="member-avatar">
+                    <h3>Prince Carlo A. Monacillo</h3>
+                    <p class="member-title">Local Hiker</p>
+                    <p class="member-bio">Shares personal hiking experiences, photos, and simple trail notes.</p>
+                </div>
+                <div class="team-member">
+                    <img src="assets/images/billy.jpg" alt="Billy" class="member-avatar">
+                    <h3>Billy</h3>
+                    <p class="member-title">Community Member</p>
+                    <p class="member-bio">Enjoys local mountain views and beginner-friendly hiking experiences.</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Testimonial -->
+    <section class="community-testimonial">
+        <div class="container">
+            <h2 class="section-title">What Our Community Says</h2>
+            <div class="testimonials-showcase">
+                <!-- Community quotes are loaded from data.json by js/main.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Plan Your Next Hike</h2>
+            <p>Check the local hike guide, estimated spend, and basic things to prepare before you go.</p>
+            <div class="cta-buttons">
+                <a href="hikes.html" class="btn btn-primary">View Hike Costs</a>
+                <a href="guides.html" class="btn btn-secondary">Read Guides</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Tuktokra</h3>
+                <p>A local hiking community for sharing trails, views, and practical notes.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">I</a>
+                    <a href="#" aria-label="Twitter">X</a>
+                    <a href="#" aria-label="YouTube">Y</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hikes.html">Hikes</a></li>
+                    <li><a href="guides.html">Guides</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <p>Subscribe for hiking tips and updates.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tuktokra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="js/main.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our gallery of stunning hiking and mountain adventure photography.">
+    <meta name="keywords" content="gallery photography hiking mountains adventure images">
+    <title>Gallery - Adventure Awaits</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">⛏</span>
+                Adventure Awaits
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="hikes.html" class="nav-link">Hikes</a></li>
+                <li><a href="guides.html" class="nav-link">Guides</a></li>
+                <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="header-content">
+            <h1>Adventure Gallery</h1>
+            <p>Moments captured from our incredible hiking expeditions</p>
+        </div>
+        <div class="header-overlay"></div>
+    </header>
+
+    <!-- Filter Section -->
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="mountains">Mountains</button>
+                <button class="filter-btn" data-filter="community">Community</button>
+                <button class="filter-btn" data-filter="landscapes">Landscapes</button>
+                <button class="filter-btn" data-filter="wildlife">Wildlife</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-masonry">
+                <!-- Gallery photos are loaded from data.json by js/main.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose">&times;</button>
+            <img id="lightboxImage" src="" alt="">
+            <div class="lightbox-info">
+                <h3 id="lightboxTitle"></h3>
+                <p id="lightboxDescription"></p>
+            </div>
+            <button class="lightbox-nav lightbox-prev" id="lightboxPrev">❮</button>
+            <button class="lightbox-nav lightbox-next" id="lightboxNext">❯</button>
+        </div>
+    </div>
+
+    <!-- Community Contributions -->
+    <section class="community-gallery">
+        <div class="container">
+            <h2 class="section-title">Share Your Adventures</h2>
+            <p class="section-subtitle">Help us build our community gallery by sharing your hiking photos and experiences!</p>
+            <a href="contact.html" class="btn btn-primary">Submit Your Photos</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Adventure Awaits</h3>
+                <p>Your premier hiking and mountain adventure community.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="Twitter">𝕏</a>
+                    <a href="#" aria-label="YouTube">▶</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hikes.html">Hikes</a></li>
+                    <li><a href="guides.html">Guides</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <p>Subscribe for hiking tips and adventure updates.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Adventure Awaits. All rights reserved. | Made with ❤ for hikers</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="js/main.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
