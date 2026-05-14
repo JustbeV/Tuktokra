@@ -1653,6 +1653,15 @@ section {
 .form-group.checkbox label {
     margin-bottom: 0;
 }
+.form-group select {
+    color: #fff;
+    background-color: var(--card-bg);
+}
+
+.form-group select option {
+    color: #000;
+    background-color: #fff;
+}
 
 .form-status {
     padding: 12px;
