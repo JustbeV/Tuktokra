@@ -248,17 +248,10 @@
   "testimonials": [
     {
       "id": 1,
-      "name": "Prince Carlo A. Monacillo",
+      "name": "Carlo",
       "text": "Unforgettable experience. Ang mga bukid kay grabe ka nindot, with strong peaks ug wide views nga dili jud ka magmahay. Nature naa sa tanan dapit, very fresh ug relaxing kaayo ang hangin. Every view kay amazing ug makapahawa sa stress. Simple ra pero powerful kaayo ang feeling, murag connected jud ka sa lugar while nagtan-aw sa palibot.Unforgettable experience. Ang mga bukid kay grabe ka nindot, with strong peaks ug wide views nga dili jud ka magmahay. Nature naa sa tanan dapit, very fresh ug relaxing kaayo ang hangin. Every view kay amazing ug makapahawa sa stress. Simple ra pero powerful kaayo ang feeling, murag connected jud ka sa lugar while nagtan-aw sa palibot.",
       "rating": 5,
       "image": "assets/images/me-pic.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Billy",
-      "text": "Grabe ka nindot nga experience. Ang mga bukid kay amazing kaayo, taas nga peaks ug super wide nga views nga makawala gyud sa kapoy. Ang nature kay buhi kaayo tan-awon, fresh ang hangin ug very calming ang atmosphere. Nindot kaayo magtan-aw sa palibot kay every direction naa kay makita nga inspiring nga scenery. Simple pero solid kaayo ang experience, murag gusto pa nimo mobalik balik.",
-      "rating": 5,
-      "image": "assets/images/billy.jpg"
     }
   ],
 
